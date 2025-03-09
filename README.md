@@ -95,7 +95,7 @@
         /* Rolling text effect */
         .header h1 {
             display: inline-block;
-            font-size: 36px;
+            font-size: 27px;
             white-space: nowrap; /* Prevent the title from wrapping */
             animation: rollText 10s linear infinite; /* Apply animation to roll the text */
             position: relative;
