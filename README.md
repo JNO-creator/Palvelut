@@ -183,7 +183,7 @@
  
           /* Box with Background Image */
           .box-image {
-             background-image: url('Katu.jpg'); /* Corrected with url() */
+             background-image: url('katu.jpg'); /* Corrected with url() */
               background-size: cover;
               background-position: center;
               color: #0e194d;
@@ -266,15 +266,15 @@
       <!-- Main Content -->
       <section>
           <div class="box-container">
-              <!-- Tarina Box (Smaller) -->
+              <!-- Työkalut Box (Smaller) -->
               <div class="box-small">
-                  <h3>Kuinka tarinamme alkoi?</h3>
+                  <h3>Tulevaisuuden työkalut yrityksellesi</h3>
                   <a href="/Meista" class="cta-btn">Lue lisää</a>
               </div>
  
-              <!-- Palvelut Box (Smaller) -->
+              <!-- Kanavat Box (Smaller) -->
               <div class="box-small">
-                  <h3>Palvelut Sinun liiketoiminnallesi</h3>
+                  <h3>Missä liiketoimintasi on?</h3>
                   <a href="/Meista" class="cta-btn">Tutustu</a>
               </div>
  
