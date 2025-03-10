@@ -286,7 +286,7 @@
  
               <!-- Uutiskirjeen tilaus Box (With Background Image) -->
               <div class="box-image">
-                  <h3>Liity ennakkokuulijoiden joukkoon</h3>
+                  <h3>Liity postituslistallemme</h3>
               <a href="/Meista" class="cta-btn">Tilaa</a>
               </div>
           </div>
