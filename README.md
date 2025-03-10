@@ -280,7 +280,7 @@
  
               <!-- Tulevaisuuden suunnitelma Box (With Background Image) -->
               <div class="box-image">
-                  <h3>Tehdään yhdessä liiketoimintasi tulevaisuuden suunnitelma</h3>
+                  <h3>Tehdään yhdessä tulevaisuuden suunnitelma</h3>
                <a href="/Meista" class="cta-btn">Lue lisää</a>
               </div>
  
