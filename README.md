@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -24,7 +25,7 @@
             padding: 14px 20px; /* Padding inside each link */
             text-decoration: none; /* Removes underline from links */
             color: white; /* White text color */
-            font-size: 16px; /* Font size for the links */
+            font-size: 14px; /* Font size for the links */
             transition: background-color 0.3s ease; /* Smooth transition for background color change */
         }
 
@@ -44,7 +45,7 @@
         .navbar .icon {
             z-index: 2;
             display: none;
-            font-size: 30px;
+            font-size: 27px;
             color: white;
             padding: 14px 20px;
             background-color: #0e194d;
@@ -112,38 +113,80 @@
             }
         }
 
+        /* New Text Section */
+        .intro-text {
+            text-align: center;
+            padding: 40px;
+            background-color: #f0f0f0; /* Light background for the text section */
+        }
+
+        .intro-text h2 {
+            font-size: 24px;
+            color: #0e194d;
+        }
+
+        .intro-text p {
+            font-size: 14px;
+            color: #0e194d;
+        }
+
         /* Box Container */
         .box-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-template-columns: 1fr 1fr; /* Two columns for smaller boxes (Tarina and Palvelut) */
             gap: 10px;
             margin-top: 40px;
         }
 
         /* Box Styles */
         .box {
-            background-color: #38B6FF;
+            background-color: #0e194d;
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
             border: 1px solid #ddd;
             border-radius: 8px;
             text-align: center;
-            padding: 20px;
+            padding: 20px; /* Increased padding */
             transition: transform 0.3s ease;
         }
 
         .box h3 {
-            margin: 20px 0 10px;
-            font-size: 1.2rem;
+            margin-bottom: 15px; /* Space between title and paragraph */
+            font-size: 24px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adjusted shadow for better visibility */
             color: #0e194d;
         }
 
         .box p {
-            font-size: 1rem;
+            font-size: 14px;
             color: #0e194d;
         }
 
         .box:hover {
             transform: translateY(-10px);
+        }
+
+        /* Box with Background Image */
+        .box-image {
+            background-image: url('mitta.jpg'); /* Corrected with url() */
+            background-size: cover;
+            background-position: center;
+            color: #0e194d;
+            padding: 40px;
+            text-align: center;
+            width: 100%; /* Set a fixed height */
+            border-radius: 8px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
+        }
+
+        .box-image h3 {
+            margin-bottom: 20px; /* Space between title and paragraph */
+            font-size: 24px;
+            color: #e1705d;
+        }
+
+        .box-image p {
+            font-size: 14px;
+            color: #e1705d;
         }
 
         footer {
@@ -178,17 +221,15 @@
         section {
             padding-bottom: 40px; /* Space between content and footer */
         }
-
     </style>
 </head>
 <body>
-
     <!-- Top Navigation Bar placed before the header -->
     <div class="navbar" id="myNavbar">
         <a href="/Kotisivu">Koti</a>
-        <a href="/Meista">Meistä</a>
+        <a href="#Meista" class="active">Meistä</a>
         <a href="/Yritys">Yritys</a>
-        <a href="#palvelut" class="active">Palvelut</a>
+        <a href="/Palvelut">Palvelut</a>
         <a href="/Koulutus">Koulutus</a>
         <!-- Hamburger Icon -->
         <a href="javascript:void(0);" class="icon" onclick="toggleNavbar()">&#9776;</a>
@@ -199,35 +240,37 @@
         <h1>Self-Help-You</h1>
     </div>
 
+    <!-- New Text Section -->
+    <div class="intro-text">
+        <h2>Anna meidän auttaa Sinua ja liiketoimintaasi!</h2>
+        <p>Haluamme poistaa digitaalisen eriarvoisuuden yhteiskuntamme rakenteista.</p>
+    </div>
+
     <!-- Main Content -->
     <section>
         <div class="box-container">
-            <!-- Meistä Box -->
-            <div class="box">
-                <h3>Meistä</h3>
-                <p>Lue lisää meistä ja referensseistämme.</p>
+            <!-- Tarina Box (Smaller) -->
+            <div class="box-small">
+                <h3>Kuinka tarinamme alkoi?</h3>
                 <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
-            <!-- Yritys Box -->
-            <div class="box">
-                <h3>Yritys</h3>
-                <p>Tutustu yritykseemme sekä henkilökuntaamme.</p>
+            <!-- Palvelut Box (Smaller) -->
+            <div class="box-small">
+                <h3>Palvelut Sinun liiketoiminnallesi</h3>
                 <a href="/Meista" class="cta-btn">Tutustu</a>
             </div>
 
-            <!-- Palvelut Box -->
-            <div class="box">
-                <h3>Palvelut</h3>
-                <p>Kuinka voimme auttaa Sinua ja yritystoimintaasi tulevaisuuden suunnittelussa.</p>
-                <a href="/Meista" class="cta-btn">Katso tästä</a>
+            <!-- Referenssit Box (With Background Image) -->
+            <div class="box-image">
+                <h3>Tutustu jo olemassa oleviin asiakkaisiin.</h3>
+                <a href="/Meista" class="cta-btn">Lue lisää</a>
             </div>
 
-            <!-- Koulutus Box -->
-            <div class="box">
-                <h3>Koulutus</h3>
-                <p>Monipuoliset ja monimuotoiset koulutukset räätälöity Sinun yritystarpeillesi.</p>
-                <a href="/Meista" class="cta-btn">Lue lisää</a>
+            <!-- Ota yhteyttä Box (With Background Image) -->
+            <div class="box-image">
+                <h3>Ota rohkeasti yhteyttä ja kysy lisätietoja</h3>
+                <a href="/Meista" class="cta-btn">Lähesty</a>
             </div>
         </div>
     </section>
