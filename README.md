@@ -158,12 +158,12 @@
               margin-bottom: 15px; /* Space between title and paragraph */
               font-size: 24px;
      text-shadow: 2px 2px 5px black; /* Horizontal shadow, vertical shadow, blur radius, color */
-              color: #0e194d;
+              color: #e1705d;
           }
  
           .box p {
               font-size: 14px;
-              color: #0e194d;
+              color: #e1705d;
           }
  
           .box:hover {
