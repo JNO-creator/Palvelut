@@ -183,7 +183,7 @@
  
           /* Box with Background Image */
           .box-image {
-             background-image: url('pexels-dsd-143941-1822608.jpg'); /* Corrected with url() */
+             background-image: url('mies.jpg'); /* Corrected with url() */
               background-size: cover;
               background-position: center;
               color: #0e194d;
