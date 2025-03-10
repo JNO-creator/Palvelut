@@ -268,7 +268,7 @@
           <div class="box-container">
               <!-- Työkalut Box (Smaller) -->
               <div class="box-small">
-                  <h3>Tulevaisuuden työkalut yrityksellesi</h3>
+                  <h3>Työkalut yrityksellesi</h3>
                   <a href="/Meista" class="cta-btn">Lue lisää</a>
               </div>
  
@@ -278,16 +278,16 @@
                   <a href="/Meista" class="cta-btn">Tutustu</a>
               </div>
  
-              <!-- Referenssit Box (With Background Image) -->
+              <!-- Tulevaisuuden suunnitelma Box (With Background Image) -->
               <div class="box-image">
-                  <h3>Tutustu jo olemassa oleviin asiakkaisiin.</h3>
+                  <h3>Tehdään yhdessä liiketoimintasi tulevaisuuden suunnitelma</h3>
                <a href="/Meista" class="cta-btn">Lue lisää</a>
               </div>
  
-              <!-- Ota yhteyttä Box (With Background Image) -->
+              <!-- Uutiskirjeen tilaus Box (With Background Image) -->
               <div class="box-image">
-                  <h3>Ota rohkeasti yhteyttä ja kysy lisätietoja</h3>
-              <a href="/Meista" class="cta-btn">Lähesty</a>
+                  <h3>Liity ennakkokuulijoiden joukkoon</h3>
+              <a href="/Meista" class="cta-btn">Tilaa</a>
               </div>
           </div>
       </section>
