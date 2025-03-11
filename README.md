@@ -274,7 +274,7 @@
  
               <!-- Kanavat Box (Smaller) -->
               <div class="box-small">
-                  <h3>Missä liiketoimintasi on?</h3>
+                  <h3>Yrityksesi kanavat</h3>
                   <a href="/Meista" class="cta-btn">Tutustu</a>
               </div>
  
