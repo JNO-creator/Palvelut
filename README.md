@@ -172,7 +172,7 @@
  
           /* Smaller Boxes with Reduced Width */
           .box-small {
-              background-image: url('Main.jpg'); /* Corrected with url() */
+              background-image: url('Pallot.jpg'); /* Corrected with url() */
               box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3), -2px -2px 5px rgba(92, 97, 102, 0.5);
               padding: 20px;
               height: 150px; /* Set a fixed height */
