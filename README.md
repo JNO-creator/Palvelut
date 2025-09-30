@@ -1,4 +1,16 @@
-<style>
+<html lang="fi">
+  <head>
+    <!-- Meta tags and styles should be placed here -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Self-Help-You</title>
+    <style>
+      /* Reset default margin and padding */
+      body, html {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif;
+      }
   /* Styling the navigation bar */
   .navbar {
       background-color: #e1705d; /* Red background color */
